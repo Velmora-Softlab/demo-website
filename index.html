@@ -1,0 +1,570 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#102F35" />
+    <meta
+      name="description"
+      content="MY FIRST PIERCING — thoughtful piercing, personal expression, and jewelry inspiration. Call +1 659-280-7372 to discuss your session."
+    />
+    <meta
+      property="og:title"
+      content="MY FIRST PIERCING — Your Body. Your Art."
+    />
+    <meta
+      property="og:description"
+      content="A premium piercing editorial experience. Your body. Your art."
+    />
+    <title>MY FIRST PIERCING — Your Body. Your Art.</title>
+    <link rel="preconnect" href="https://images.unsplash.com" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="wordmark" href="#home" aria-label="MY FIRST PIERCING home"
+        >MY FIRST <span>PIERCING</span><i>®</i></a
+      >
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        aria-expanded="false"
+        aria-controls="primary-nav"
+        aria-label="Open navigation"
+      >
+        <span></span><span></span>
+      </button>
+      <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+        <a href="#discover">Discover</a><a href="#experience">The experience</a
+        ><a href="#jewelry">Jewelry edit</a
+        ><a href="#booking" class="nav-book">Book a session <span>↗</span></a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="home" aria-labelledby="hero-title">
+        <div
+          class="hero-image"
+          role="img"
+          aria-label="Editorial close-up of sculptural jewelry"
+        ></div>
+        <div class="hero-shade"></div>
+
+        <div class="hero-kicker">
+          <span class="eyebrow-dot"></span> PERSONAL EXPRESSION, CONSIDERED
+        </div>
+        <div class="hero-copy">
+          <p class="eyebrow">A STUDY IN SELF-EXPRESSION / 001</p>
+          <h1 id="hero-title">YOUR BODY.<br /><em>YOUR ART.</em></h1>
+          <p class="hero-description">
+            A little detail can say everything. Discover considered placements,
+            thoughtful guidance, and jewelry that feels like you.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-mint" href="#carousel"
+              >Explore piercings <span>↘</span></a
+            ><a class="button button-glass" href="#booking"
+              >Book your session <span>↗</span></a
+            >
+          </div>
+        </div>
+        <div class="hero-side-note">INDIVIDUALITY, IN EVERY DETAIL</div>
+        <div class="hero-bottom">
+          <span>EST. IN SELF-EXPRESSION</span
+          ><span class="scroll-cue">SCROLL TO EXPLORE <b>↓</b></span
+          ><span>01 — 04</span>
+        </div>
+        <div class="hero-glass">
+          <span class="glass-number">01</span
+          ><span>YOUR NEXT<br />CHAPTER, IN DETAIL.</span
+          ><span class="glass-circle">↗</span>
+        </div>
+      </section>
+
+      <section class="carousel-section section-dark section-pad" id="carousel">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow">01 / FIND YOUR PLACEMENT</p>
+            <h2>A world of<br /><em>possibilities.</em></h2>
+          </div>
+          <p class="heading-note">
+            Turn the perspective.<br />Find your detail.
+          </p>
+        </div>
+        <div
+          class="carousel-shell"
+          id="piercing-carousel"
+          tabindex="0"
+          aria-label="Three-dimensional piercing carousel. Use arrow keys to navigate."
+        >
+          <div class="carousel-stage">
+            <div class="carousel-ring" id="carousel-ring">
+              <article class="carousel-card" data-key="ear-stack">
+                <button class="carousel-card-button" aria-pressed="false">
+                  <img
+                    src="https://images.unsplash.com/photo-1692220527262-094906b793e5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
+                    alt="Layered fine jewelry inspiration"
+                    loading="lazy"
+                  /><span class="card-label">01 / EAR STACK</span>
+                </button>
+              </article>
+              <article class="carousel-card" data-key="helix">
+                <button class="carousel-card-button" aria-pressed="false">
+                  <img
+                    src="https://images.unsplash.com/photo-1669214774117-7bd6c63399c8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
+                    alt="Sculptural gold jewelry detail"
+                    loading="lazy"
+                  /><span class="card-label">02 / HELIX</span>
+                </button>
+              </article>
+              <article class="carousel-card" data-key="forward-helix">
+                <button class="carousel-card-button" aria-pressed="false">
+                  <img
+                    src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=700&q=85"
+                    alt="Delicate jewelry composition"
+                    loading="lazy"
+                  /><span class="card-label">03 / FORWARD HELIX</span>
+                </button>
+              </article>
+              <article class="carousel-card" data-key="conch">
+                <button class="carousel-card-button" aria-pressed="false">
+                  <img
+                    src="https://images.unsplash.com/photo-1611652022419-a9419f74343d?auto=format&fit=crop&w=700&q=85"
+                    alt="Minimal jewelry with sculptural form"
+                    loading="lazy"
+                  /><span class="card-label">04 / CONCH</span>
+                </button>
+              </article>
+              <article class="carousel-card" data-key="tragus">
+                <button class="carousel-card-button" aria-pressed="false">
+                  <img
+                    src="https://images.unsplash.com/photo-1602173574767-37ac01994b2a?auto=format&fit=crop&w=700&q=85"
+                    alt="Close-up jewelry detail"
+                    loading="lazy"
+                  /><span class="card-label">05 / TRAGUS</span>
+                </button>
+              </article>
+              <article class="carousel-card" data-key="nostril">
+                <button class="carousel-card-button" aria-pressed="false">
+                  <img
+                    src="https://images.unsplash.com/photo-1710301443142-b9a3883a8b59?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
+                    alt="Expressive personal jewelry"
+                    loading="lazy"
+                  /><span class="card-label">06 / NOSTRIL</span>
+                </button>
+              </article>
+              <article class="carousel-card" data-key="septum">
+                <button class="carousel-card-button" aria-pressed="false">
+                  <img
+                    src="https://images.unsplash.com/photo-1658596223576-102b0634e619?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
+                    alt="Editorial jewelry inspiration"
+                    loading="lazy"
+                  /><span class="card-label">07 / SEPTUM</span>
+                </button>
+              </article>
+              <article class="carousel-card" data-key="jewelry">
+                <button class="carousel-card-button" aria-pressed="false">
+                  <img
+                    src="https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?auto=format&fit=crop&w=700&q=85"
+                    alt="Jewelry pieces arranged for an editorial"
+                    loading="lazy"
+                  /><span class="card-label">08 / JEWELRY</span>
+                </button>
+              </article>
+            </div>
+          </div>
+          <div class="carousel-controls">
+            <button
+              class="round-control"
+              id="carousel-prev"
+              aria-label="Previous piercing"
+            >
+              ←
+            </button>
+            <div class="carousel-counter">
+              <strong id="carousel-count">01</strong><span>/ 08</span>
+            </div>
+            <button
+              class="round-control"
+              id="carousel-next"
+              aria-label="Next piercing"
+            >
+              →</button
+            ><button
+              class="motion-control"
+              id="carousel-play"
+              aria-pressed="true"
+            >
+              PAUSE MOTION
+            </button>
+          </div>
+        </div>
+        <div class="carousel-detail reveal">
+          <div>
+            <p class="eyebrow">THE DETAIL, UP CLOSE</p>
+            <h3 id="carousel-detail-title">Ear stack</h3>
+          </div>
+          <p id="carousel-detail-description">
+            Curate a personal composition of placements and jewelry, from
+            barely-there accents to layered expression.
+          </p>
+          <a
+            class="text-link"
+            id="carousel-detail-link"
+            href="#booking"
+            data-piercing="ear-stack"
+            >Ask about this <span>↗</span></a
+          >
+        </div>
+      </section>
+
+      <section class="discovery section-light section-pad" id="discover">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow">02 / THE DISCOVERY EDIT</p>
+            <h2>Find your<br /><em>own kind of iconic.</em></h2>
+          </div>
+          <p class="heading-note">
+            Every placement tells<br />a different story.
+          </p>
+        </div>
+        <div class="discovery-grid">
+          <button
+            class="discovery-card discovery-tall reveal"
+            data-detail="ear-stack"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1708389827845-73ae293712a0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
+              alt="Layered jewelry inspiration for an ear stack"
+              loading="lazy"
+            /><span class="image-index">A / 01</span
+            ><span class="discovery-caption"
+              ><span
+                ><small>THE COMPOSITION</small><strong>Ear stacks</strong></span
+              ><b>↗</b></span
+            >
+          </button>
+          <button
+            class="discovery-card discovery-wide reveal"
+            data-detail="nostril"
+          >
+            <img
+              src="https://plus.unsplash.com/premium_photo-1707094213810-0e21b68d7d94?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
+              alt="Expressive jewelry styling inspiration"
+              loading="lazy"
+            /><span class="image-index">B / 02</span
+            ><span class="discovery-caption"
+              ><span><small>THE SIGNATURE</small><strong>Nostril</strong></span
+              ><b>↗</b></span
+            >
+          </button>
+          <button
+            class="discovery-card discovery-small reveal"
+            data-detail="conch"
+          >
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6XFJK0B6R46gsNzkPItopgBB4GjlA8IIMX5oNuykjoIjNajxOSHRo1r3x&s=10"
+              alt="Sculptural jewelry inspiration"
+              loading="lazy"
+            /><span class="image-index">C / 03</span
+            ><span class="discovery-caption"
+              ><span><small>THE SCULPTURE</small><strong>Conch</strong></span
+              ><b>↗</b></span
+            >
+          </button>
+        </div>
+        <p class="image-disclaimer">
+          Editorial imagery is for inspiration only. Actual jewelry, materials,
+          and placement suitability must be confirmed directly.
+        </p>
+      </section>
+
+      <section class="statement section-mint section-pad">
+        <p class="eyebrow reveal">A NOTE ON INDIVIDUALITY / 003</p>
+        <h2 class="statement-copy reveal">
+          There is no<br />one way to <em>be you.</em>
+        </h2>
+        <div class="statement-foot reveal">
+          <span class="statement-orbit" aria-hidden="true">M·P</span>
+          <p>Make it personal. Make it considered. Make it yours.</p>
+          <a class="button button-dark" href="#booking"
+            >Start your story <span>↗</span></a
+          >
+        </div>
+      </section>
+
+      <section class="experience section-light section-pad" id="experience">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow">03 / THE EXPERIENCE</p>
+            <h2>Considered at<br /><em>every step.</em></h2>
+          </div>
+          <p class="heading-note">
+            Confidence begins<br />with a conversation.
+          </p>
+        </div>
+        <div class="steps-grid">
+          <article class="step reveal">
+            <span class="step-number">01</span>
+            <div class="step-symbol">◌</div>
+            <h3>Start with a conversation.</h3>
+            <p>
+              Share your ideas, references, questions, and the look you have in
+              mind.
+            </p>
+          </article>
+          <article class="step reveal">
+            <span class="step-number">02</span>
+            <div class="step-symbol">⌁</div>
+            <h3>Explore your options.</h3>
+            <p>
+              Discuss placement, anatomy, suitable jewelry, and what to expect
+              before deciding.
+            </p>
+          </article>
+          <article class="step reveal">
+            <span class="step-number">03</span>
+            <div class="step-symbol">◎</div>
+            <h3>Make an informed choice.</h3>
+            <p>
+              Take time to understand the process, hygiene practices, risks, and
+              aftercare.
+            </p>
+          </article>
+          <article class="step reveal">
+            <span class="step-number">04</span>
+            <div class="step-symbol">✳</div>
+            <h3>Wear it your way.</h3>
+            <p>
+              Follow professional aftercare guidance and ask for help if
+              anything concerns you.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="jewelry section-dark section-pad" id="jewelry">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow">04 / THE JEWELRY EDIT</p>
+            <h2>Objects of<br /><em>affection.</em></h2>
+          </div>
+          <p class="heading-note">
+            Shape. Finish. Feeling.<br />Details worth noticing.
+          </p>
+        </div>
+        <div class="jewelry-grid">
+          <figure class="jewel jewel-large reveal">
+            <img
+              src="https://plus.unsplash.com/premium_photo-1674255466836-f38d1cc6fd0d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
+              alt="A considered arrangement of jewelry pieces"
+              loading="lazy"
+            />
+            <figcaption>
+              <span>FORM STUDY / 01</span><strong>Quiet statement</strong>
+            </figcaption>
+          </figure>
+          <figure class="jewel jewel-offset reveal">
+            <img
+              src="https://images.unsplash.com/photo-1585960622850-ed33c41d6418?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
+              alt="Sculptural metal jewelry detail"
+              loading="lazy"
+            />
+            <figcaption>
+              <span>FORM STUDY / 02</span><strong>Modern heirlooms</strong>
+            </figcaption>
+          </figure>
+          <figure class="jewel jewel-bottom reveal">
+            <img
+              src="https://plus.unsplash.com/premium_photo-1739907898387-05444007f3b4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
+              alt="Delicate jewelry in a soft editorial composition"
+              loading="lazy"
+            />
+            <figcaption>
+              <span>FORM STUDY / 03</span><strong>Everyday artefacts</strong>
+            </figcaption>
+          </figure>
+        </div>
+        <p class="image-disclaimer">
+          These are visual references, not a representation of current inventory
+          or confirmed jewelry materials.
+        </p>
+      </section>
+
+      <section class="booking section-light section-pad" id="booking">
+        <div class="booking-intro reveal">
+          <p class="eyebrow">05 / YOUR NEXT CHAPTER</p>
+          <h2>Let's make it<br /><em>personal.</em></h2>
+          <p>
+            Tell us what you're considering. This demo form helps you prepare an
+            inquiry; it does not submit a real booking.
+          </p>
+          <a class="phone-link" href="tel:+16592807372"
+            >+1 659-280-7372 <span>↗</span></a
+          ><span class="contact-note"
+            >Call to discuss availability directly.</span
+          >
+        </div>
+        <form class="booking-form reveal" id="booking-form" novalidate>
+          <div class="form-heading">
+            <span>SESSION ENQUIRY</span><span>FORM / 001</span>
+          </div>
+          <div class="field">
+            <label for="full-name">Your name <i>*</i></label
+            ><input
+              id="full-name"
+              name="name"
+              autocomplete="name"
+              required
+              aria-describedby="name-error"
+              placeholder="Name"
+            /><small class="field-error" id="name-error"></small>
+          </div>
+          <div class="field">
+            <label for="contact">Email or phone <i>*</i></label
+            ><input
+              id="contact"
+              name="contact"
+              autocomplete="email"
+              required
+              aria-describedby="contact-error"
+              placeholder="How can we reach you?"
+            /><small class="field-error" id="contact-error"></small>
+          </div>
+          <div class="field">
+            <label for="piercing-type">I'm interested in <i>*</i></label
+            ><select
+              id="piercing-type"
+              name="piercing"
+              required
+              aria-describedby="piercing-error"
+            >
+              <option value="">Choose a category</option>
+              <option>Ear stack</option>
+              <option>Helix</option>
+              <option>Forward helix</option>
+              <option>Conch</option>
+              <option>Tragus</option>
+              <option>Nostril</option>
+              <option>Septum</option>
+              <option>Jewelry consultation</option>
+              <option>Not sure yet</option></select
+            ><small class="field-error" id="piercing-error"></small>
+          </div>
+          <div class="field">
+            <label for="preferred-date">Preferred date <i>*</i></label
+            ><input
+              id="preferred-date"
+              name="date"
+              type="date"
+              required
+              aria-describedby="date-error"
+            /><small class="field-error" id="date-error"></small>
+          </div>
+          <div class="field">
+            <label for="message"
+              >Anything you'd like us to know <span>OPTIONAL</span></label
+            ><textarea
+              id="message"
+              name="message"
+              rows="3"
+              placeholder="Ideas, questions, references..."
+            ></textarea>
+          </div>
+          <button class="button button-dark form-submit" type="submit">
+            Prepare inquiry preview <span>↗</span>
+          </button>
+          <p class="form-privacy">
+            Demo only. Your entries are not sent or stored.
+          </p>
+          <div
+            class="form-feedback"
+            id="form-feedback"
+            role="status"
+            aria-live="polite"
+            tabindex="-1"
+            hidden
+          ></div>
+        </form>
+      </section>
+
+      <section class="location section-petrol section-pad">
+        <div class="location-copy reveal">
+          <p class="eyebrow">A PLACE TO BEGIN</p>
+          <h2>Good things<br />start with<br /><em>a conversation.</em></h2>
+          <p>
+            Our studio location has not yet been verified for this demo. Contact
+            us directly to confirm the address and appointment details before
+            travelling.
+          </p>
+          <a class="button button-mint" href="tel:+16592807372"
+            >Call the studio <span>↗</span></a
+          >
+        </div>
+        <div
+          class="map-placeholder reveal"
+          role="img"
+          aria-label="Decorative map placeholder; studio address not yet verified"
+        >
+          <div class="map-lines"></div>
+          <div class="map-orbit"><span>M·P</span></div>
+          <div class="map-caption">
+            <span>LOCATION / TO BE CONFIRMED</span
+            ><strong>Let's find the way.</strong
+            ><small>No verified address available yet.</small>
+          </div>
+          <span class="map-coordinate">ADDRESS PENDING</span>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-top">
+        <a class="wordmark footer-wordmark" href="#home"
+          >MY FIRST <span>PIERCING</span><i>®</i></a
+        >
+        <p>Your body. Your art.<br />Your story, in every detail.</p>
+        <a class="footer-phone" href="tel:+16592807372">+1 659-280-7372 ↗</a>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="current-year"></span> MY FIRST PIERCING</span>
+        <nav aria-label="Footer navigation">
+          <a href="#discover">Discover</a><a href="#experience">Experience</a
+          ><a href="#jewelry">Jewelry edit</a><a href="#booking">Contact</a>
+        </nav>
+        <a href="#home">BACK TO TOP ↑</a>
+      </div>
+    </footer>
+
+    <dialog
+      class="detail-modal"
+      id="detail-modal"
+      aria-labelledby="modal-title"
+    >
+      <button class="modal-close" id="modal-close" aria-label="Close details">
+        ×
+      </button>
+      <div class="modal-media">
+        <img
+          id="modal-image"
+          src="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=1100&q=85"
+          alt="Jewelry editorial inspiration"
+        />
+      </div>
+      <div class="modal-copy">
+        <p class="eyebrow" id="modal-eyebrow">THE DETAIL</p>
+        <h2 id="modal-title">Ear stack</h2>
+        <p id="modal-description"></p>
+        <button
+          class="button button-dark"
+          id="modal-book"
+          data-piercing="ear-stack"
+        >
+          Explore in booking <span>↗</span>
+        </button>
+      </div>
+    </dialog>
+  </body>
+</html>
